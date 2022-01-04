@@ -15,9 +15,7 @@ html{
     scroll-behavior: smooth;
 
 }
-body::after{
 
-}
 
 .topLayer{
     height: 100vh;
@@ -242,7 +240,17 @@ li img{
         width: 100vw !important;
         overflow:scroll;
     }
-    
+    body::after{
+        content: "";
+
+        background-color: #222222;
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.3;
+        z-index: -1;
+    }
 
     .movingBanger{
         width: 200%;
