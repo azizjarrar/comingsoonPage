@@ -257,7 +257,7 @@ li img{
         height: 50px;
         top: 0;
         background-color: #222222;
-        transform:rotate(-45deg) translateX(-400px) translateY(150px);
+        transform:rotate(-45deg) translateX(-300px) translateY(100px);
         transform-origin: left;
         z-index: 15651;
         position: absolute;
@@ -282,7 +282,7 @@ li img{
     }
     .titletext{
         position: relative;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .subtext{
         font-size: 1.5rem;
